@@ -1,0 +1,217 @@
+nav{
+	font-family:futura;
+	text-align:right;
+	background-color: #63E077;
+	padding: 2em;
+}
+
+nav a{
+	padding: 1em;
+}
+
+.logo {
+        width: 12.5%;
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+body{
+	background-color: #f7f748;
+}
+
+a{
+	text-decoration:none;
+	font-size: 12.5px;
+	color: black;
+}
+
+h1{
+	font-family: futura;
+	text-align:center;
+}
+
+h2{
+	font-family: futura;
+}
+
+h3{
+	font-family: futura;
+}
+
+h4{
+	font-family: futura;
+}
+
+h5{
+	font-family: futura;
+	padding-right: 1.5em;
+}
+
+ol{
+	font-family: raleway;
+}
+
+p{
+	font-family: raleway;
+}
+
+blockquote{
+	font-family: raleway;
+
+}
+
+.hero img{
+	height: 200px;
+	width: 100%;
+}
+
+.images img{
+	height: 225px;
+	width: 100%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+footer{
+	padding: .5em;
+	background-color: #63E077;
+	text-align: right;
+}
+
+@media screen and (min-width:67.5em) {
+    nav a{
+    	font-size: 20px;
+    }
+
+    .wrapper img{
+    	width: 5%;
+    	position: absolute;
+    	left: 48%;
+    	top: 3%;
+
+    }
+
+    .hero img{
+    	height: 600px;
+    }
+
+}
+
+@media screen and (min-width:47.5em) {
+    nav a{
+    	font-size: 20px;
+    }
+
+    .wrapper img{
+    	width: 5%;
+    	position: absolute;
+    	left: 48%;
+    	top: 3%;
+
+    }
+
+    .hero img{
+    	height: 600px;
+    }
+
+}
+
+
+@media screen and (min-width:67.5em) {
+ 	h3{
+ 		font-size: 18px;
+ 		text-align:center;
+ 	}
+
+ 	h4{
+ 		font-size: 18px;
+ 		text-align:center;
+ 	}
+
+ 	footer{
+ 		font-size: 20px;
+ 		text-align:center;
+ 	}
+
+ 	h2{
+ 		text-align:center;
+ 	}
+ 	p{
+ 		text-align:center;
+ 	}
+
+}
+
+@media screen and (min-width:47.5em) {
+ 	h3{
+ 		font-size: 18px;
+ 		text-align:center;
+ 	}
+
+ 	h4{
+ 		font-size: 18px;
+ 		text-align:center;
+ 	}
+
+ 	footer{
+ 		font-size: 20px;
+ 		text-align:center;
+ 	}
+
+ 	h2{
+ 		text-align:center;
+ 	}
+ 	p{
+ 		text-align:center;
+ 	}
+
+}
+
+
+
+@media screen and (min-width:67.5em) {
+    .images img{
+        width: 29.3333%;
+        float: left;
+        margin-right: 2% ;
+        margin-left: 2% ;
+    }
+}
+
+@media screen and (min-width:47.5em) {
+    .images img{
+        width: 29.3333%;
+        float: left;
+        margin-right: 2% ;
+        margin-left: 2% ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
