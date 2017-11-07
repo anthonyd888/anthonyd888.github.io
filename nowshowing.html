@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Now Showing</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width,intial-scale1">
+	<meta name="author" content="Anthony DeRienzo">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/flexslider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://use.fontawesome.com/bdee89ef34.js"></script>
+</head>
+<body>
+
+
+
+
+<div class="navButton">
+	<a href="#nav">
+		<i class="fa fa-bars" aria-hidden="true"></i>MENU
+	</a>
+</div>
+
+
+<nav id="nav">
+	<ul>
+		<li class="hiddenLink">
+			<a href="#">
+				<i class="fa fa-times" aria-hidden="true"></i>CLOSE
+			</a>
+		</li>
+ 		<li class="hiddenLink">&nbsp;</li>
+ 		<li><a href="index.html">HOME</a></li>
+		<li><a href="nowshowing.html">NOW SHOWING</a></li>
+		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="tickets.html">TICKETS</a></li>
+	</ul>
+</nav>
+
+
+<div class="descriptions">
+	<h1>Now Showing</h1>
+		<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="img/road.jpg" />
+    </li>
+    <li>
+      <img src="img/shining.jpg" />
+    </li>
+    <li>
+      <img src="img/christmas.jpg" />
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="descriptions">
+	<h2>The Road</h2>
+		<p>The Road is a film set in a post-apocolyptic world that follows a boy and his father doing anything they can to survive. </p>
+			<h3>Showtimes: (4:00 PM - 6:00 PM) (6:15 PM - 8:15 PM) (8:30 PM - 10:30 PM)</h3>
+	<h2>The Shining</h2>
+		<p>An aspiring writer, Jack Torrance, and his wife and son are given the opportunity to take care of a hotel with a dark past. As they learn more about the hotels past, tensions rise.</p>
+			<h3>Showtimes: (4:30 PM - 7:00 PM) (7:15 PM - 9:45 PM) (10:00 PM - 12:30 PM)</h3>
+	<h2>The Nightmare Before Christmas</h2>
+		<p>The Pumpkin King of Halloween Town, Jack Skellington, stumbles upon a new place called Christmas Town. After years of only celebrating Halloween, he decides things are going to be different this year.</p>
+			<h3>Showtimes: (1:00 PM - 2:20 PM) (2:30 PM - 3:50 PM) (4:00 PM - 5:20 PM)</h3>
+</div>
+
+<footer>
+	<h4>Good Karma Productions 2017</h4>
+</footer>
+	
+
+
+
+
+
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+  $(function(){
+    SyntaxHighlighter.all();
+  });
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
+</DOCTYPE>

@@ -1,76 +1,105 @@
 <DOCTYPE html>
 <html>
 <head>
-	<title>Skate Pedia</title>
+	<title>Avon Cinemas</title>
 	<meta charset="utf-8">
 	<meta name="viewpoint" content="width=device-width,intial-scale1">
 	<meta name="author" content="Anthony DeRienzo">
-	<meta name="description" content="A How To website for people who are new to skateboarding">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link href="css/flexslider.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/stylize.css">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://use.fontawesome.com/bdee89ef34.js"></script>
 </head>
 <body>
 
-	<div class="wrapper">
-		<nav>
-		<a href="Nav 1"> About</a>
-		<a href="Nav 2"> How-To</a>
-		<a href="Nav 3"> Contact</a>
-		<img src="img/logo.svg" class="logo">
-		</nav>
-	</div>
 
-	<header>
-		<h1>Skate Pedia</h1>
-	</header>
 
-<section class="hero">
-<!-- 	<img src="img/me.JPG">
- -->	<blockquote> "Skateboarding for Dummies" </blockquote>
-</section>
 
-<section class="heading 1">
+<div class="navButton">
+	<a href="#nav">
+		<i class="fa fa-bars" aria-hidden="true"></i>MENU
+	</a>
+</div>
+
+
+<nav id="nav">
+	<ul>
+		<li class="hiddenLink">
+			<a href="#">
+				<i class="fa fa-times" aria-hidden="true"></i>CLOSE
+			</a>
+		</li>
+ 		<li class="hiddenLink">&nbsp;</li>
+ 		<li><a href="index.html">HOME</a></li>
+		<li><a href="nowshowing.html">NOW SHOWING</a></li>
+		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="tickets.html">TICKETS</a></li>
+	</ul>
+</nav>
+
+<div class="header"> 
+
+	<h1> AVON Cinemas</h1>
+
+</div>
+
+<div class="hero">
+	<img src="img//hero.jpg">
+</div>
+
+<div class="about">
 	<h2>About Us</h2>
-	<p>Skate Pedia is your first stop on learning everything skateboarding. Whether you want to build your own board or learn how to ride, we can provide you with all the help you will need.</p>
-</section>
-
-<section class="images">
-	<img src="img/chris.JPG">
-	<img src="img/cole.JPG">
-	<img src="img/board.jpg">
+		<p>AVON Cinemas is a Providence born, independent theatre that loves to play classic films as well as independent films to help get new directors noticed. We have been around since 1938 and have not left our roots by sticking to our Art Deco theme. AVON Cinemas has a special place in the city of Providence's heart as well as everyone who visits us.</p>
 	
-</section>
 
-<section class="body 1">
-	<h3>Building a Complete</h3>
-		<ol>
-			<li>The first step to building a complete skateboard is acquiring all of the parts and the correct tools. For parts you will need: skateboard deck, grip tape, wheels, bearings, trucks and hardware. For tools you will need: skate tool (designed for building skateboards, can be found at local skate shop or Zumiez), screwdriver and razor blade.</li>
-			<li>Peel the grip tape from the paper it is on and apply it as smoothly as possible on the top of the deck. Use the screwdriver or a filer, if handy, and rub the edges of the grip tape so it makes it easier to cut. Then grab the razor blade (adult supervision required) and cut along the edges as even as possible.</li>
-			<li>Take the bearings and put all 8 on either sides of the wheels. Make sure they are in there good but not too snug in case you need to remove then in the future.</li>
-			<li>Place the wheels onto the trucks and screw the nut on the outside to keep the wheels in place. Do not tighten too much or else the wheels will not spin.</li>
-			<li>Place the screws in all 8 of the holes through the top of the board and place the trucks, facing the right way (displayed in picture above), through the screws.</li>
-			<li>Use the screwdriver and the skate tool to tighten the smaller nuts onto the screws to lock the trucks in place.</li>
-			<li>Lastly, and most importantly, take it out for a ride and have fun!</li>
-		</ol>
-</section>
-
-<section class="body 2">
-	<h4>How to Ollie</h4>
-		<ol>
-			<li>Get comfortable riding your board and staying balanced before attempting.</li>
-			<li>Jump up and down on the board to get used to landing.</li>
-			<li>First place both feet on the board stationary, one on the back tail and one towards the middle.</li>
-			<li>Here’s the hard part, all in one motion you must pop your back foot down on the tail, slide your front foot up using the top of your shoe to catch the grip tape, and jump.</li>
-			<li>Keep practicing this motion until you get it down, remember, practice makes perfect!</li>
-		</ol>
-</section>
+</div>
 
 
+<div class="home">
+	<h1>Featured Films</h1>
+		<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="img/road.jpg" />
+    </li>
+    <li>
+      <img src="img/shining.jpg" />
+    </li>
+    <li>
+      <img src="img/christmas.jpg" />
+    </li>
+  </ul>
+</div>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+
+<!-- FlexSlider -->
+<script defer src="js/jquery.flexslider.js"></script>
+
+<script type="text/javascript">
+  $(function(){
+    SyntaxHighlighter.all();
+  });
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.9740473921665!2d-71.40307004962382!3d41.8288569763726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4452365da0b2d%3A0x5ae9246bc3983e79!2sAvon+Cinema!5e0!3m2!1sen!2sus!4v1509645773686" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	
 <footer>
-	<h5>Skate Pedia Inc.</h5>
+	<h4>Good Karma Productions 2017</h4>
 </footer>
-
 
 
 </body>
