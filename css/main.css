@@ -29,7 +29,6 @@ body{
 .about h2{
 	font-family: 'Righteous';
 	color:#67C8FF;
-	text-align:center;
 }
 
 @media only screen and (min-width: 30em) {
@@ -72,7 +71,6 @@ body{
 .descriptions h2{
 	font-family: 'Righteous';
 	color:#67C8FF;
-	text-align:center;
 	padding-top: 2em;
 }
 
@@ -106,14 +104,12 @@ body{
 .events h2{
 	font-family: 'Righteous';
 	color:#67C8FF;
-	text-align:center;
 	padding-top: 1em;
 }
 
 .events h3{
 	font-family: 'Righteous';
 	color:#67C8FF;
-	text-align:center;
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
